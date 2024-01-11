@@ -49,7 +49,7 @@ const About = () => {
 
   return (
     <div>
-     <h1> Lunch / Dinner</h1>
+     <h1 className='jo'> Lunch / Dinner</h1>
 
     <div className="card-container">
       {foodPosts.map((post) => (

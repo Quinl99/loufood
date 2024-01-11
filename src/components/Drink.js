@@ -49,7 +49,7 @@ const Contact = () => {
 
   return (
     <div>
-            <h1>Healthy Smoothies</h1>
+            <h1 className='jo'>Healthy Smoothies</h1>
 
     <div className="card-container">
       {foodPosts.map((post) => (

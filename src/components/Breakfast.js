@@ -5,7 +5,7 @@ const Home = () => {
   // Component logic
   return (
     <div>
-      <h1>Healthy Breakfast</h1>
+      <h1 className='jo'>Healthy Breakfast</h1>
       <FoodPost/>
     </div>
   );
