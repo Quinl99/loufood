@@ -18,14 +18,15 @@ const BigPost = () => {
   return (
     
     <div>
-      <Link to="/" style={{textDecoration: 'none', color: 'white'}} className="back-button">Back</Link>
+      <Link to="/breakfast" style={{textDecoration: 'none', color: 'white'}} className="back-button">Back</Link>
 
       <div className='boys'>
       <h1>{label}</h1>
-      <p>Category: {category}</p>
+      <p style={{marginTop: '-10px'}} >Category: {category}</p>
+      <div className="">
 
-      <img src={image} alt={label} />
-      
+      <img src={image} alt={label} style={{ border: '1px solid #ddd', borderRadius: '8px', padding:'10px' }} />
+      </div>
       {/* Additional details about the food post */}
     </div>
     </div>

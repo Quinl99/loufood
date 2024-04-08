@@ -74,16 +74,23 @@
   padding: 5px 10px;
   border-radius: 5px;
   cursor: pointer;
-  
+  margin-left: 20px;
+
 }
 
 
 .jo{
 margin-left: 20px;
 }
+.jo1{
+  margin-left: 20px;
+  font-size: 30px;
+  }
 
 .boys{
   margin-top: 55px;
+  margin-left: 20px;
+
 }
 
 

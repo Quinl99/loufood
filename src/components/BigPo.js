@@ -22,8 +22,11 @@ const BigPo = () => {
 
       <div className='boys'>
       <h1>{label}</h1>
-      <p>Category: {category}</p>
-      <img src={image} alt={label} />
+      <p style={{marginTop: '-10px'}} >Category: {category}</p>
+      <div className="">
+
+      <img src={image} alt={label} style={{ border: '1px solid #ddd', borderRadius: '8px', padding:'10px' }} />
+      </div>
       {/* Additional details about the food post */}
     </div>
     </div>

@@ -10,6 +10,8 @@ import FoodPost from './components/FoodPost';
 import BigPost from './components/BigPost';
 import BigP from './components/BigP';
 import BigPo from './components/BigPo';
+import About from './components/About';
+import Homee from './components/Homee';
 
 function App() {
   return (
@@ -17,12 +19,15 @@ function App() {
       <div>
         <Navbar />
         <Routes>
-          <Route path="/" element={<Breakfast />} />
+          <Route path="/breakfast" element={<Breakfast />} />
           <Route path="/food" element={<Food />} />
           <Route path="/drink" element={<Drink />} />
           <Route path="/bigpost/:id" element={<BigPost />} /> {/* Example route for BigPost */}  
           <Route path="/bigp/:id" element={<BigP />} /> {/* Example route for BigPost */}  
           <Route path="/bigpo/:id" element={<BigPo />} /> {/* Example route for BigPost */}  
+          <Route path="/About" element={<About />} /> {/* Example route for About */}  
+          <Route path="/" element={<Homee />} /> {/* Example route for About */}  
+
 
         </Routes>
       </div>
